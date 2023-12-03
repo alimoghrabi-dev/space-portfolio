@@ -9,7 +9,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto hidden sm:flex flex-row items-center">
           <Image
-            src={"/Navlogo.png"}
+            src={"/navlogo.png"}
             alt="logo"
             width={70}
             height={70}
