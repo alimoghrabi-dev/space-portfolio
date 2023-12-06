@@ -27,6 +27,12 @@ const Projects = () => {
           description="A Car Showcase Web Application."
           link="https://car-showcase-livid-mu.vercel.app/"
         />
+        <ProjectCard
+          src="/project-4.png"
+          title="NextCommerce"
+          description="Simple E-Commerce Web Application."
+          link="https://next-commerce-one-ivory.vercel.app/"
+        />
       </div>
     </div>
   );
