@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import StartsCanvas from "@/components/main/StarBg";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Navbar />
         <StartsCanvas />
         {children}
+        <SpeedInsights />
         <Footer />
       </body>
     </html>
