@@ -22,10 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
-        <StartsCanvas />
+      <body className={`${inter.className} bg-[#030014]`}>
         <Navbar />
+        <StartsCanvas />
         {children}
         <Footer />
       </body>

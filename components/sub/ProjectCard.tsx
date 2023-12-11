@@ -9,7 +9,7 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, link }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg shadow-[#2a0e61]/60 border border-[#2a0e61]">
+    <div className="relative rounded-lg shadow-lg shadow-[#2a0e61]/60 border border-[#2a0e61]">
       <Image
         src={src}
         alt={title}
@@ -17,10 +17,10 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
         height={1000}
         className="w-full object-contain shadow-lg shadow-[#2a0e61]/20"
       />
-      <div className="relative p-4 flex items-start justify-end flex-col gap-5">
-        <div>
+      <div className="relative p-4 flex items-start flex-col gap-5">
+        <div className="flex flex-col items-start gap-2">
           <h2 className="text-2xl font-semibold text-white">{title}</h2>
-          <p className="mt-2 text-gray-300">{description}</p>
+          <p className="text-gray-300">{description}</p>
         </div>
         <a
           href={link}
