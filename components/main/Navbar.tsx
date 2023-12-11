@@ -1,18 +1,15 @@
 import { Socials } from "@/constants";
+import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
-        <a href="#about-me" className="hidden sm:flex flex-row items-center">
-          <Image
-            src="/navlogo.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          />
+        <a
+          href="#about-me"
+          className="hidden sm:flex flex-row items-center gap-x-2 mr-2.5 lg:mr-0">
+          <CodeBracketIcon className="h-7 w-7 fill-[#9cb2ff]" />
           <span className="font-normal text-lg hidden lg:block text-gray-100 custom-font">
             WebChain Dev
           </span>
