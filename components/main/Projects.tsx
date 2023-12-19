@@ -33,6 +33,12 @@ const Projects = () => {
           description="Simple E-Commerce Web Application."
           link="https://next-commerce-one-ivory.vercel.app/"
         />
+        <ProjectCard
+          src="/project-5.png"
+          title="Quantum"
+          description="AI ChatBot, upload a PDF and start asking AI about the PDF."
+          link="https://quantum-alimogh.vercel.app/"
+        />
       </div>
     </div>
   );
