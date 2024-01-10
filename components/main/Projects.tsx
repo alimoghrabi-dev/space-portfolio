@@ -39,6 +39,12 @@ const Projects = () => {
           description="AI ChatBot, upload a PDF and start asking AI about the PDF."
           link="https://quantum-alimogh.vercel.app/"
         />
+        <ProjectCard
+          src="/project-6.png"
+          title="InsightQ"
+          description="Upload your course, price it, and let people watch it."
+          link="https://insightq.vercel.app/"
+        />
       </div>
     </div>
   );
