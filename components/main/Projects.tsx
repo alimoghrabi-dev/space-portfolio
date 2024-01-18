@@ -45,6 +45,12 @@ const Projects = () => {
           description="Upload your course, price it, and let people watch it."
           link="https://insightq.vercel.app/"
         />
+        <ProjectCard
+          src="/project-7.png"
+          title="ST Pizza"
+          description="Pizza shop, with Full Admin Dashboard."
+          link="https://st-pizza-six.vercel.app/"
+        />
       </div>
     </div>
   );
