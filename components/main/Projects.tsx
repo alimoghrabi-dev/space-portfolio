@@ -13,43 +13,49 @@ const Projects = () => {
           src="/project-1.png"
           title="SaintStream"
           description="A Movies Web Application."
-          link="https://saint-stream-peach.vercel.app/"
+          link="https://saint-stream-peach.vercel.app"
         />
         <ProjectCard
           src="/project-2.png"
           title="DevFlow"
           description="A Full-Stack StackOverFlow Clone."
-          link="https://dev-overflow-alimogh.vercel.app/"
+          link="https://dev-overflow-alimogh.vercel.app"
         />
         <ProjectCard
           src="/project-3.png"
           title="CarHub"
           description="A Car Showcase Web Application."
-          link="https://car-showcase-livid-mu.vercel.app/"
+          link="https://car-showcase-livid-mu.vercel.app"
         />
         <ProjectCard
           src="/project-4.png"
           title="NextCommerce"
           description="Simple E-Commerce Web Application."
-          link="https://next-commerce-one-ivory.vercel.app/"
+          link="https://next-commerce-one-ivory.vercel.app"
         />
         <ProjectCard
           src="/project-5.png"
           title="Quantum"
           description="AI ChatBot, upload a PDF and start asking AI about the PDF."
-          link="https://quantum-alimogh.vercel.app/"
+          link="https://quantum-alimogh.vercel.app"
         />
         <ProjectCard
           src="/project-6.png"
           title="InsightQ"
           description="Upload your course, price it, and let people watch it."
-          link="https://insightq.vercel.app/"
+          link="https://insightq.vercel.app"
         />
         <ProjectCard
           src="/project-7.png"
           title="ST Pizza"
           description="Pizza shop, with Full Admin Dashboard."
-          link="https://st-pizza-six.vercel.app/"
+          link="https://st-pizza-six.vercel.app"
+        />
+        <ProjectCard
+          src="/project-8.png"
+          title="QuantumNotes"
+          description="AI Powered Application, Upload your notes and get it ready for AI."
+          link="https://ai-note-taking-app.vercel.app"
         />
       </div>
     </div>
