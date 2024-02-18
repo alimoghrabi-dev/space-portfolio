@@ -57,6 +57,12 @@ const Projects = () => {
           description="AI Powered Application, Upload your notes and get it ready for AI."
           link="https://ai-note-taking-app.vercel.app"
         />
+        <ProjectCard
+          src="/project-9.png"
+          title="Company Vacs"
+          description="Company Vacations, with Full Admin Dashboard."
+          link="https://company-vacs.vercel.app/"
+        />
       </div>
     </div>
   );
